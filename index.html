@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="estilo.css">
+  <script src="script.js" defer></script>
+
+  <title>Document</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Métodos numéricos</h1>
+  </header>
+
+  <main>
+    <div class = "container-1">
+      <div class = "row-1">
+  
+        <div class="form-control">
+          <label for="numOriginal">Número</label>
+          <input type="number" name="numOriginal" id="numOriginal" class="input-numbers">
+        </div>
+    
+        <div class="form-control">
+          <label for="numBaseOriginal">Base de Origem</label>
+          <input type="number" name="numBaseOriginal" id="numBaseOriginal" class="input-numbers">
+        </div>
+    
+        <div class="form-control">
+          <label for="numBaseDest">Base de Destino</label>
+          <input type="number" name="numBaseDest" id="numBaseDest" class="input-numbers">
+        </div>
+      </div>
+  
+      <div class = "row-2">
+  
+        <div class="form-control">
+          <label for="digMantissa">Digitos para a mantissa</label>
+          <input type="number" name="digMantissa" id="digMantissa" class="input-numbers">
+        </div>
+    
+        <div class="form-control">
+          <label for="numErro">Valor para calcular erro</label>
+          <input type="number" name="numErro" id="numErro" class="input-numbers">
+        </div>
+    
+        <div class="form-control">
+          <label for="digErro">Dígitos do erro</label>
+          <input type="number" name="digErro" id="digErro" class="input-numbers">
+        </div>
+      </div>
+  
+      <!-- <div class="form-control">
+        <label for="limNeg">limiteNegativoExp</label>
+        <input type="number" name="limNeg" id="limNeg" class="input-numbers">
+      </div>
+      
+      <div class="form-control">
+        <label for="limPos">limitePositivoExp</label>
+        <input type="number" name="limPos" id="limPos" class="input-numbers">
+      </div> -->
+  
+    </div>
+  
+  
+    <div class="container-2">
+  
+    <h1>Resultados</h1>
+  
+    <div class = "res-row-1">
+  
+      <div class="form-control">
+        <label for="numTrunc">Numero truncado</label>
+        <input type="text" name="numTrunc" id="numTrunc" class="resInput">
+      </div>
+    
+      <div class="form-control">
+        <label for="numArred">Numero arredondado</label>
+        <input type="text" name="numArred" id="numArred" class="resInput">
+      </div>
+    
+      <div class="form-control">
+        <label for="numConv">Numero Convertido</label>
+        <input type="text" name="numConv" id="numConvertido" class="resInput">
+      </div>
+      
+      <div class="form-control">
+        <label for="numFlutuante">Ponto flutuante</label>
+        <input type="text" name="numFlutuante" id="numFlutuante" class="resInput">
+      </div>
+    </div>
+  
+    <div class="res-row-2">
+      <h2>Erros</h2>
+      <div class="row-1-res">
+        <h3  >Truncamento</h3>
+  
+        <div class="form-control">
+          <label for="numEAtrunc">Erro Absoluto</label>
+          <input type="text" name="numEAtrunc" id="numEAtrunc" class="resInput">
+        </div>
+      
+        <div class="form-control">
+          <label for="numERtrunc">Erro Relativo</label>
+          <input type="text" name="numERtrunc" id="numERtrunc" class="resInput">
+        </div>
+      </div>
+    
+      <div class="row-2-res">
+        <h3  >Arredondamento</h3>
+  
+        <div class="form-control">
+          <label for="numEAarred">Erro Absoluto</label>
+          <input type="text" name="numEAarred" id="numEAarred" class="resInput">
+        </div>
+        
+        <div class="form-control">
+          <label for="numERarred">Erro Relativo</label>
+          <input type="text" name="numERarred" id="numERarred" class="resInput">
+        </div>
+  
+      </div>
+  
+    </div>
+  </main>
+
+</body>
+</html>
